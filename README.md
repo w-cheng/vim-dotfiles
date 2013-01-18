@@ -7,13 +7,11 @@ Assume you are using Ubuntu:
 
 * Syntastic requires pyflakes installed. 
 
-To install:
-$ sudo apt-get install -y pyflakes
+	To install: $ sudo apt-get install -y pyflakes
 
 * Tagbar requires Exuberant CTags installed.
 
-To install:
-$ sudo apt-get install -y exuberant-ctags
+	To install: $ sudo apt-get install -y exuberant-ctags
 
 * Clang requires clang installed.
 
