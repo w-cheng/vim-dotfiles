@@ -52,3 +52,8 @@ let g:clang_user_options='|| exit 0'
 " Jedi-vim customization
 let g:jedi#popup_on_dot = 0
 " ------------------------
+
+" Automatically generate tags after editing my own help docs
+autocmd BufWrite sample.txt :helptags ~/.vim/doc/
+autocmd BufWrite python.txt :helptags ~/.vim/doc/
+autocmd BufWrite bash.txt :helptags ~/.vim/doc/
