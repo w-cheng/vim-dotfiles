@@ -1,0 +1,20 @@
+" vim: filetype=help foldmethod=marker foldmarker=<<<,>>> modifiable noreadonly
+
+*shimage*
+
+-Print Image Information
+
+$ identify <image file>
+p.jpg JPEG 1000x881 1000x881+0+0 8-bit DirectClass 173KB 0.000u 0:00.000
+
+*shsed*
+
+*shawk*
+
+*shbash*
+
+-Get epoch time of current date
+$ date +%s
+1362409355
+
+

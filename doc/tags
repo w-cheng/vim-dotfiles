@@ -1,0 +1,11 @@
+pynp	python.txt	/*pynp*
+pynp_stack_array	python.txt	/*pynp_stack_array*
+sed	sample.txt	/*sed*
+sfphone	sample.txt	/*sfphone*
+sfsed	sample.txt	/*sfsed*
+sfvim	sample.txt	/*sfvim*
+shawk	bash.txt	/*shawk*
+shbash	bash.txt	/*shbash*
+shimage	bash.txt	/*shimage*
+shsed	bash.txt	/*shsed*
+vim	sample.txt	/*vim*
