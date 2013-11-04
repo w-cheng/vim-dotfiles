@@ -57,3 +57,7 @@ let g:jedi#popup_on_dot = 0
 autocmd BufWrite sample.txt :helptags ~/.vim/doc/
 autocmd BufWrite python.txt :helptags ~/.vim/doc/
 autocmd BufWrite bash.txt :helptags ~/.vim/doc/
+
+" Load GATE Jape syntax highlight when editting .jape files
+au BufNewFile,BufRead  *.jape  set ft=jape
+au BufWritePost *.jape !japeSyntaxValidator.sh %
